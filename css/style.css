@@ -1,0 +1,202 @@
+/*<!--
+name:Adrita Dutta
+netid:axd172930
+axd172930@utdallas.edu*/
+#top-bar
+{
+	background: grey;
+	text-align: center;
+	height: 20px;
+	padding-bottom:100px;
+    padding-right: 10px;
+    font-size:30px; 
+    margin-top: 0;
+}
+
+#navbar
+{
+	
+	color: white;
+    background: black;
+    background-position: center;
+    padding-bottom:45px;
+    padding-right: 10px;
+    padding-top: 0;
+
+}
+
+
+.navbar-collapse ul
+{
+	padding:0;
+	list-style: none;
+
+}
+
+.navbar-collapse ul li
+{
+	display: inline-block;
+
+}
+
+
+.navbar-collapse ul li a
+{
+
+	text-decoration: none;
+	color:white;
+	padding:15px 20px;
+	font-size: 18px;
+}
+
+
+.navbar-collapse ul li a:hover
+{
+	background: white;
+	color:black;
+}
+
+#sidebar
+{
+	float:left;
+	width:10%;
+
+	padding:0;
+	margin-right: 30px;
+	box-sizing: border-box;
+	
+
+
+}
+
+
+#sidebar ul
+{
+	padding:10px;
+	list-style: none;
+	float:right;
+	width:50%;
+	text-align: left;
+	color:black;
+}
+
+#sidebar ul li
+{
+	display: block;
+	color:black;
+}
+
+
+#sidebar ul li a
+{
+
+	text-decoration: none;
+	color:black;
+	padding: 5px 20px;
+	border:1px solid white;
+	margin-top: 25px;
+	transition: 0.6s ease;
+    
+}
+
+
+#sidebar li a:hover
+{
+	background: white;
+	color:black;
+}
+
+
+
+#main
+{
+	/*float:right;*/
+
+	background: white;
+	color:black;
+	padding:10px;
+	box-sizing: border-box; 
+	margin-left: 0;
+
+
+}
+
+#main img
+{
+	float:left;
+	margin: 0 30px;
+}
+
+#main h4
+{
+    font-size: 28px;
+	margin:30px;
+}
+
+#main p
+{
+	margin: 10px;
+	padding:0 20px;
+	text-decoration: none;
+}
+
+
+
+.container
+{
+	float:left;
+	margin: 0;
+	/*width:0%;
+	margin: auto;*/
+	overflow: hidden;
+}
+
+.container1
+{
+	/*float: right;
+	width:80%;
+	margin: auto;*/
+	overflow: hidden;
+     border-left: 2px solid black;
+}
+
+
+
+.container2
+{
+	margin:auto;
+	width:80%;
+	overflow:hidden;
+   
+}
+.clr
+{
+	clear:both;
+}
+
+
+#main-footer
+{
+	background: #333;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px
+}
+
+
+
+@media(max-width: 600px)
+{
+	#main
+	{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar
+	{
+		width:100%;
+		float:none;
+	}
+}
